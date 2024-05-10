@@ -20,19 +20,19 @@ header img:hover {
 
 ul {
     display: flex;
-    justify-content: center;
+    justify-content: center; /* Horizontally center the items */
     align-items: center;
     border: 3px solid #007EA7;
     border-radius: 20px;
     letter-spacing: 2px;
     list-style-type: none;
     margin: auto;
-    width: auto;
     padding: 0px;
     overflow: hidden;
     background-color: #00171F;
-    
+    width: max-content; /* Set the width to fit content */
 }
+
 
 li {
     float: left;
